@@ -84,6 +84,8 @@ My responsibilities included:
 
 ## High-Level Architecture
 
+![High-Level Architecture](images/architecture.png)
+
 ```mermaid
 flowchart LR
     WEB[Customer Web Application]
