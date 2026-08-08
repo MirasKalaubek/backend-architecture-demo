@@ -420,22 +420,35 @@ The repository will contain only non-confidential portfolio materials:
 ```text
 backend-architecture-demo/
 ├── README.md
-├── images/
-│   ├── architecture.png
-│   ├── admin-orders.png
-│   ├── admin-products.png
-│   ├── mobile-catalog.png
-│   ├── mobile-cart.png
-│   ├── mobile-orders.png
-│   ├── web-catalog.png
-│   ├── web-checkout.png
-│   ├── swagger-mobile.png
-│   └── swagger-admin.png
-└── docs/
-    ├── backend-modules.md
-    ├── guest-checkout.md
-    ├── payment-flow.md
-    └── production-support.md
+└── images/
+    ├── architecture.png
+    │
+    ├── admin/
+    │   ├── admin-orders.png
+    │   ├── admin-products.png
+    │   └── admin-users.png
+    │
+    ├── mobile/
+    │   ├── mobile-home.PNG
+    │   ├── mobile-catalog.PNG
+    │   ├── mobile-product.PNG
+    │   ├── mobile-cart.PNG
+    │   └── mobile-profile.PNG
+    │
+    ├── swaggerr/
+    │   ├── admin-api-management.png
+    │   ├── admin-api-overview.png
+    │   ├── admin-api-schemas.png
+    │   ├── mobile-api-orders.png
+    │   ├── mobile-api-overview.png
+    │   └── mobile-api-schemas.png
+    │
+    └── web/
+        ├── web-home.png
+        ├── web-catalog.png
+        ├── web-product.png
+        ├── web-cart.png
+        └── web-checkout.png
 ```
 
 No proprietary application source code is included.
@@ -444,16 +457,81 @@ No proprietary application source code is included.
 
 ## Screenshots
 
-Screenshots will be added after removing or masking:
+### High-Level Architecture
 
-- customer names;
-- phone numbers;
-- email addresses;
-- physical addresses;
-- transaction identifiers;
-- order identifiers;
-- internal URLs;
-- production credentials.
+![Architecture](images/architecture.png)
+
+---
+
+### Mobile Application
+
+| Home | Catalog |
+|------|---------|
+| ![](images/mobile/mobile-home.PNG) | ![](images/mobile/mobile-catalog.PNG) |
+
+| Product | Cart |
+|---------|------|
+| ![](images/mobile/mobile-product.PNG) | ![](images/mobile/mobile-cart.PNG) |
+
+| Profile |
+|---------|
+| ![](images/mobile/mobile-profile.PNG) |
+
+---
+
+### Customer Web Application
+
+| Home | Catalog |
+|------|---------|
+| ![](images/web/web-home.png) | ![](images/web/web-catalog.png) |
+
+| Product | Cart |
+|---------|------|
+| ![](images/web/web-product.png) | ![](images/web/web-cart.png) |
+
+| Checkout |
+|----------|
+| ![](images/web/web-checkout.png) |
+
+---
+
+### Administrative Panel
+
+| Orders |
+|--------|
+| ![](images/admin/admin-orders.png) |
+
+| Products |
+|----------|
+| ![](images/admin/admin-products.png) |
+
+| Users |
+|-------|
+| ![](images/admin/admin-users.png) |
+
+---
+
+### Swagger / OpenAPI
+
+| Mobile API | Mobile Schemas |
+|------------|----------------|
+| ![](images/swaggerr/mobile-api-overview.png) | ![](images/swaggerr/mobile-api-schemas.png) |
+
+| Mobile Orders |
+|---------------|
+| ![](images/swaggerr/mobile-api-orders.png) |
+
+| Admin API | Admin Schemas |
+|-----------|---------------|
+| ![](images/swaggerr/admin-api-overview.png) | ![](images/swaggerr/admin-api-schemas.png) |
+
+| API Management |
+|----------------|
+| ![](images/swaggerr/admin-api-management.png) |
+
+---
+
+All screenshots have been sanitized by removing or masking customer names, phone numbers, email addresses, transaction identifiers and other confidential production information.
 
 ---
 
