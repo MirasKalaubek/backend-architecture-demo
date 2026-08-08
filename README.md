@@ -481,13 +481,22 @@ No proprietary application source code is included.
 
 ### Customer Web Application
 
-| Home | Catalog |
-|------|---------|
-| ![](images/web/web-home.png) | ![](images/web/web-catalog.png) |
+| Home |
+|------|
+| ![](images/web/web-home.png) |
 
-| Product | Cart |
-|---------|------|
-| ![](images/web/web-product.png) | ![](images/web/web-cart.png) |
+| Catalog |
+|---------|
+| ![](images/web/web-catalog.png) |
+
+| Product |
+|---------|
+| ![](images/web/web-product.png) |
+
+| Cart |
+|---------|
+| ![](images/web/web-cart.png) |
+
 
 | Checkout |
 |----------|
@@ -513,21 +522,29 @@ No proprietary application source code is included.
 
 ### Swagger / OpenAPI
 
-| Mobile API | Mobile Schemas |
-|------------|----------------|
-| ![](images/swaggerr/mobile-api-overview.png) | ![](images/swaggerr/mobile-api-schemas.png) |
+| Mobile API |
+|------------|
+| ![](images/swaggerr/mobile-api-overview.png) |
 
 | Mobile Orders |
 |---------------|
 | ![](images/swaggerr/mobile-api-orders.png) |
 
-| Admin API | Admin Schemas |
-|-----------|---------------|
-| ![](images/swaggerr/admin-api-overview.png) | ![](images/swaggerr/admin-api-schemas.png) |
+| Mobile Schemas |
+|-------|
+| ![](images/swaggerr/mobile-api-schemas.png) |
+
+| Admin API |
+|-----------|
+| ![](images/swaggerr/admin-api-overview.png) |
 
 | API Management |
 |----------------|
 | ![](images/swaggerr/admin-api-management.png) |
+
+| Admin Schemas |
+|-------|
+| ![](images/swaggerr/admin-api-schemas.png) |
 
 ---
 
